@@ -7,8 +7,8 @@
 <body>
 
     <ul>
-        <th:block th:each="todo : ${todos}">
-            <li th:text="${todo.task}" />
+        <th:block th:each="x : ${todos}">
+            <li th:text="${x.task}" />
         </th:block>
     </ul>
 </body>
